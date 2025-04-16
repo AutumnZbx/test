@@ -1,0 +1,7 @@
+{
+  "name": "Effitask-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
