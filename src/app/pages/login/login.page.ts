@@ -23,8 +23,8 @@ export class LoginPage implements OnInit {
   onLogin() {
     const { email, password } = this.loginForm.value;
 
-    // Puedes reemplazar esto con lógica real de autenticación
-    if (email === 'admin@correo.com' && password === 'Admin123!') {
+    
+    if (email === 'admin' && password === 'Admin123!') {
       localStorage.setItem('usuario', email);
       this.navCtrl.navigateRoot('/home');
     } else {

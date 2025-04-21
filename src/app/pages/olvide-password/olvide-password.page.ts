@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class OlvidePasswordPage implements OnInit {
   recoveryForm!: FormGroup;
   preguntas = ['Nombre de tu primera mascota', 'Ciudad de nacimiento', 'Nombre de tu escuela'];
-  hasSecurityQuestion = false; // Cambiar si el usuario ya la configuró
+  hasSecurityQuestion = false; 
   stepCompleted = false;
 
   constructor(private fb: FormBuilder, private router: Router) {}
@@ -36,7 +36,7 @@ export class OlvidePasswordPage implements OnInit {
   }
 
   onSubmit() {
-    // Aquí enviarías a tu backend
+    // Deberia actualizar la bd a futuro
     this.stepCompleted = true;
   }
 
